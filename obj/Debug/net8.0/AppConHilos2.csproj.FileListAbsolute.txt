@@ -12,3 +12,4 @@ C:\codigo\dsr\AppConHilos2\obj\Debug\net8.0\refint\AppConHilos2.dll
 C:\codigo\dsr\AppConHilos2\obj\Debug\net8.0\AppConHilos2.pdb
 C:\codigo\dsr\AppConHilos2\obj\Debug\net8.0\AppConHilos2.genruntimeconfig.cache
 C:\codigo\dsr\AppConHilos2\obj\Debug\net8.0\ref\AppConHilos2.dll
+C:\codigo\dsr\AppConHilos2\obj\Debug\net8.0\AppConHilos2.sourcelink.json
