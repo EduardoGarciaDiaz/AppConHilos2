@@ -19,7 +19,7 @@ class Program
         Console.WriteLine("Thread Id: {0}", currentThread.ManagedThreadId);
         Console.WriteLine("Thread Name: {0}", currentThread.Name);
         Console.WriteLine("Thread State: {0}", currentThread.ThreadState);
-        Console.WriteLine("Es un thread backgorund: {0}", currentThread.IsBackground);
+        Console.WriteLine("Es un thread background: {0}", currentThread.IsBackground);
         Console.WriteLine("Priority: {0}", currentThread.Priority);
         Console.WriteLine("Culture: {0}", currentThread.CurrentCulture.Name);
         Console.WriteLine("UI Culture: {0}", currentThread.CurrentUICulture.Name);
@@ -51,13 +51,13 @@ class Program
             // Establecemos su prioridad
             currentThread.Priority = ThreadPriority.Highest;
             //Establecemos si corre en segundo plano o no
-            currentThread.IsBackground = false;
+            currentThread.IsBackground = true;
 
             //Imprimimos sus propiedades
             Console.WriteLine("Thread Id: {0}", currentThread.ManagedThreadId);
             Console.WriteLine("Thread Name: {0}", currentThread.Name);
             Console.WriteLine("Thread State: {0}", currentThread.ThreadState);
-            Console.WriteLine("Es un thread backgorund: {0}", currentThread.IsBackground);
+            Console.WriteLine("Es un thread background: {0}", currentThread.IsBackground);
             Console.WriteLine("Priority: {0}", currentThread.Priority);
             Console.WriteLine("Culture: {0}", currentThread.CurrentCulture.Name);
             Console.WriteLine("UI Culture: {0}", currentThread.CurrentUICulture.Name);
